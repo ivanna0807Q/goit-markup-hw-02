@@ -1,12 +1,31 @@
 
 ul {
     list-style: none;
-
 }
+a {
+    text-decoration: none;
+    
+}
+ a:hover {
+    color: #2196F3;
+ }
+
 
 /* header styles  */
-
-
+.header-link {
+     
+   width: 145px;
+   height: 31px;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+}
+.header-logo-blue {
+    color:#2196F3
+}
+.header-logo-black {
+    color: #000000;
+}
 
 /* Main, hero section- styles */
 /* SECTION***HERO*** */
