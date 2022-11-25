@@ -1,4 +1,20 @@
+   /* #212121 text gray onother color
+    #000000 text black color
+    #2196F3  text blue color
+    #757575  text grey color
+    #2F303A   background color
+    */
+
+
+
+
+
+
+
+
 body {
+    background-color: #ECECEC5;
+    color:#757575;
     font-family: 'Roboto';
 }
 ul {
@@ -34,8 +50,12 @@ a {
      .header-nav-link:active {
     color: #2196F3;
 }
-
-
+.contacts-header-link {
+    color:#757575 ;
+}
+     .contacts-header-link:hover,
+     .contacts-header-link:focus, 
+     .contacts-header-link:active  { color:#2196F3; }
 
 
 
@@ -50,7 +70,6 @@ a {
         height: 80px;
         background: #FFFFFF;
 }
-
 .hero-title {
         font-family: 'Roboto';
         font-weight: 900;
@@ -63,6 +82,27 @@ a {
 
         color: #FFFFFF;
 }
+
+
+/*h3 and text styles */
+.strength-name, .team-name, .work-title, .team-title {
+        color: #212121;
+}
+.strength-text, .team-text {
+        color: #757575;
+}
+
+/*strenght section styles*/
+.strenght, .work {
+    background-color: #F5F5F5;
+}
+
+/*team section styles*/
+.team {
+    background-color: #F5F4FA;
+}
+
+
 
 
 
