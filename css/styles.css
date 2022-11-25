@@ -4,12 +4,10 @@ ul {
 }
 a {
     text-decoration: none;
-    
 }
- a:hover {
+a:hover {
     color: #2196F3;
  }
-
 
 /* header styles  */
 .header-link {
