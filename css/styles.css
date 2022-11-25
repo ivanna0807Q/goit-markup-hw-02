@@ -7,6 +7,7 @@ ul {
 a {
     text-decoration: none;
 }
+
 /*logo styles*/
 .header-logo-link {
     width: 145px;
@@ -21,19 +22,18 @@ a {
     color: #000000; }
 
 /* hesder styles  */
-.header-main, .header-vav, {
+.header-main, .header-nav, {
     width: 1600px;
     height: 80px;
 }
-.header-link {
+.header-nav-link {
     color: #212121
 }
-     .header-link:hover,
-     .header-link:focus,
-     .header-link:active {
+     .header-nav-link:hover,
+     .header-nav-link:focus,
+     .header-nav-link:active {
     color: #2196F3;
 }
-
 
 
 
