@@ -77,21 +77,43 @@ a {
 
 .hero { 
     background-color: var(--hero-background-color);
+
 }
+
 .hero-title {
     color: var(--hero-title-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
     color: var(--hero-title-color);
     background-color: var(--link-active-color);
+    width: 216px;
+    height: 50px;
 }
+
+
+
 
 /*strenght section styles*/
-.strenght, .work {
-    background-color: var(--body-backgroud-color);
+.strenght .strenght-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-
+.strength-text {
+    font-size: 14px;
+    line-height: 24px;
+}
 
 /*h3 and text styles */
 .strength-name, .team-name, .work-title, .team-title {
@@ -101,15 +123,17 @@ a {
         color: var(--primary-text-color);
 }
 
-
-
-
-
-
-
-/*strenght section styles*/
-
-
+/* Work dection */
+.work-title, .team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+}
+.work-images {
+    width: 370px;
+    height: 294px;
+}
 
 
 
