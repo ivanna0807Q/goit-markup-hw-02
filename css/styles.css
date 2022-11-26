@@ -47,12 +47,20 @@ a {
  }
 
 /* header styles  */
-.header-main, .header-nav, {
-    width: 1600px;
-    height: 80px;
-}
 .header-nav-link {
-    color: var(--primary-title-color)
+    color: var(--primary-title-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.contacts-items {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
 }
      .header-nav-link:hover,
      .header-nav-link:focus,
@@ -94,11 +102,10 @@ a {
 .button {
     color: var(--hero-title-color);
     background-color: var(--link-active-color);
-    width: 216px;
-    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
 }
-
-
 
 
 /*strenght section styles*/
@@ -123,11 +130,12 @@ a {
         color: var(--primary-text-color);
 }
 
-/* Work dection */
+/* Work section */
 .work-title, .team-title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
+    text-align: center;
     letter-spacing: 0.03em;
 }
 .work-images {
@@ -136,14 +144,41 @@ a {
 }
 
 
-
 /*team section styles*/
+.team-member {
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--body-backgroud-color);
+}
+
 .team {
     background-color: var(--team-background-color);
 }
 
 
 
+.team-images {
+    width: 270px;
+    height: 260px;
+    background: url(4853.jpg);
+    border-radius: 0px;
+}
+.team-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 
 /* footer section styles  */
