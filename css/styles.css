@@ -19,10 +19,12 @@
     --footer-background-color: #2F303A;
 }
 
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--accent-color);
     background-color: var(--body-backgroud-color);
+    
 }
 ul {
     list-style: none;
@@ -120,11 +122,42 @@ a {
 
 
 
-
 /* footer section styles  */
 .footer {
     background-color: var(--footer-background-color);
+    
 }
+.footer-logo-blue {
+    color: var(--logo-text-blue)
+}
+.footer-logo-white {
+    color: #FFFFFF;
+}
+.footer-logo-blue, .footer-logo-white{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.footer-link-address {
+    color: #FFFFFF;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-link {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+
+}
+
+
 
 
 
@@ -135,5 +168,17 @@ a {
     color: var(--link-active-color);
 }
 
+/* Main styles */
+.portfolio-button 
+{
+    color: #212121;
+    background-color:#F5F4FA ;
+}
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+    color: #FFFFFF;
+    background-color: var(--link-active-color);
+}
 
 
