@@ -4,9 +4,12 @@
     #757575  text grey color
     #2F303A   background color
     */
+:root {
+    --primary-text-color :#757575;
+    --primary-title-color :#212121;
+    --accent-color :#2F303A;
 
-
-
+}
 
 
 
@@ -14,8 +17,9 @@
 
 body {
     background-color: #ECECEC5;
-    color:#757575;
+    color: var(--primary-text-color);
     font-family: 'Roboto';
+    
 }
 ul {
     list-style: none;
@@ -108,16 +112,4 @@ a {
 
 
 /* footer section styles  */
-.footer-main {
-    background-color: #2F303A
-}
 
-.footer-link-address {
-    color:#000000
-}
-
-.footer-link-address:hover, 
-.footer-link-address:focus, 
-.footer-link-address:active {
-color: #FFFFFF;
-}
