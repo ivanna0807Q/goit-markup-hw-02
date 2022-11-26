@@ -16,13 +16,11 @@
     --hero-background-color: #2F303A;
     --body-backgroud-color: #FFFFFF;
     --team-background-color:#F5F4FA;
-
-    
     --footer-background-color: #2F303A;
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     color: var(--accent-color);
     background-color: var(--body-backgroud-color);
 }
@@ -127,6 +125,8 @@ a {
 .footer {
     background-color: var(--footer-background-color);
 }
+
+
 
 /**** Porfolio Styles ****/
 
