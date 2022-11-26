@@ -8,18 +8,23 @@
     --primary-text-color :#757575;
     --primary-title-color :#212121;
     --accent-color :#2F303A;
+    
+    --logo-text-blue :#2196F3;
+    --logo-text-black :#000000;
+    --link-active-color: #2196F3;
+    --hero-title-color: #FFFFFF;
+    --hero-background-color: #2F303A;
+    --body-backgroud-color: #FFFFFF;
+    --team-background-color:#F5F4FA;
 
+    
+    --footer-background-color: #2F303A;
 }
 
-
-
-
-
 body {
-    background-color: #ECECEC5;
-    color: var(--primary-text-color);
     font-family: 'Roboto';
-    
+    color: var(--accent-color);
+    background-color: var(--body-backgroud-color);
 }
 ul {
     list-style: none;
@@ -30,80 +35,87 @@ a {
 
 /*logo styles*/
 .header-logo-link {
-    width: 145px;
-    height: 31px;
+    font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
 }
 .header-logo-blue {
-    color: #2196F3 }
+    color: var(--logo-text-blue) }
 .header-logo-black {
-    color: #000000; }
+    color: var(--logo-text-black );
+ }
 
-/* hesder styles  */
+/* header styles  */
 .header-main, .header-nav, {
     width: 1600px;
     height: 80px;
 }
 .header-nav-link {
-    color: #212121
+    color: var(--primary-title-color)
 }
      .header-nav-link:hover,
      .header-nav-link:focus,
      .header-nav-link:active {
-    color: #2196F3;
+    color: var(--link-active-color);
 }
 .contacts-header-link {
-    color:#757575 ;
+    color:var(--primary-text-color) ;
 }
      .contacts-header-link:hover,
      .contacts-header-link:focus, 
-     .contacts-header-link:active  { color:#2196F3; }
+     .contacts-header-link:active  { 
+    color: var(--link-active-color); }
 
+.header-nav .header-nav-link.current {
+    color: #2196F3;
+}
 
 
 /* Main, hero section- styles */
 /* SECTION***HERO*** */
 
-.hero {
-    background-color: #2F303A;
-}
-.header-main .header-nav {
-        width: 1600px;
-        height: 80px;
-        background: #FFFFFF;
+.hero { 
+    background-color: var(--hero-background-color);
 }
 .hero-title {
-        font-family: 'Roboto';
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-      
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+    color: var(--hero-title-color);
+}
 
-        color: #FFFFFF;
+.button {
+    color: var(--hero-title-color);
+    background-color: var(--link-active-color);
+}
+
+/*strenght section styles*/
+.strenght, .work {
+    background-color: var(--body-backgroud-color);
 }
 
 
 /*h3 and text styles */
 .strength-name, .team-name, .work-title, .team-title {
-        color: #212121;
+        color: var(--primary-title-color);
 }
 .strength-text, .team-text {
-        color: #757575;
+        color: var(--primary-text-color);
 }
 
+
+
+
+
+
+
 /*strenght section styles*/
-.strenght, .work {
-    background-color: #F5F5F5;
-}
+
+
+
+
 
 /*team section styles*/
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--team-background-color);
 }
 
 
@@ -112,4 +124,6 @@ a {
 
 
 /* footer section styles  */
-
+.footer {
+    background-color: var(--footer-background-color);
+}
