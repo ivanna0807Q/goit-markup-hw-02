@@ -68,7 +68,7 @@ a {
     color: var(--link-active-color); }
 
 .header-nav .header-nav-link.current {
-    color: #2196F3;
+    color: var(--link-active-color);
 }
 
 
@@ -127,3 +127,13 @@ a {
 .footer {
     background-color: var(--footer-background-color);
 }
+
+/**** Porfolio Styles ****/
+
+.header-nav-link .header-nav-link.current
+{
+    color: var(--link-active-color);
+}
+
+
+
