@@ -3,7 +3,6 @@
     --primary-text-color :#757575;
     --primary-title-color :#212121;
     --accent-color :#2F303A;
-    
     --logo-text-blue :#2196F3;
     --logo-text-black :#000000;
     --link-active-color: #2196F3;
@@ -13,13 +12,10 @@
     --team-background-color:#F5F4FA;
     --footer-background-color: #2F303A;
 }
-
-
 body {
     font-family: "Roboto", sans-serif;
     color: var(--accent-color);
-    background-color: var(--body-backgroud-color);
-    
+    background-color: var(--body-backgroud-color);  
 }
 ul {
     list-style: none;
@@ -55,19 +51,18 @@ a {
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-
 }
-     .header-nav-link:hover,
-     .header-nav-link:focus,
-     .header-nav-link:active {
-    color: var(--link-active-color);
+ .header-nav-link:hover,
+ .header-nav-link:focus,
+ .header-nav-link:active {
+     color: var(--link-active-color);
 }
 .contacts-header-link {
-    color:var(--primary-text-color) ;
+     color:var(--primary-text-color) ;
 }
-     .contacts-header-link:hover,
-     .contacts-header-link:focus, 
-     .contacts-header-link:active  { 
+.contacts-header-link:hover,
+.contacts-header-link:focus, 
+.contacts-header-link:active  { 
     color: var(--link-active-color); }
 
 .header-nav .header-nav-link.current {
@@ -120,10 +115,10 @@ a {
 
 /*h3 and text styles */
 .strength-name, .team-name, .work-title, .team-title {
-        color: var(--primary-title-color);
+  color: var(--primary-title-color);
 }
 .strength-text, .team-text {
-        color: var(--primary-text-color);
+    color: var(--primary-text-color);
 }
 
 /* Work section */
@@ -222,13 +217,12 @@ a {
     color: #2196F3;
 }
 
-
 /**** Porfolio Styles ****/
-
 .header-nav-link .header-nav-link.current
 {
     color: var(--link-active-color);
 }
+
 
 /* Main styles */
 .portfolio-button 
@@ -264,5 +258,4 @@ a {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
-
 }
