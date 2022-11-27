@@ -215,9 +215,15 @@ a {
     letter-spacing: 0.03em;
 
 }
+.footer-link:hover,
+.footer-link:focus {
+    color: #2196F3;
+}
 
-
-
+.footer-link-address:hover,
+.footer-link-address:focus {
+    color: #2196F3;
+}
 
 
 /**** Porfolio Styles ****/
