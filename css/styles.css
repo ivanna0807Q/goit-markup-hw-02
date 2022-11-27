@@ -40,7 +40,6 @@ a {
 /* header styles  */
 .header-nav-link {
     color: var(--primary-title-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -59,11 +58,15 @@ a {
 }
 .contacts-header-link {
      color:var(--primary-text-color) ;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: calc(16 / 14);
 }
 .contacts-header-link:hover,
 .contacts-header-link:focus, 
 .contacts-header-link:active  { 
-    color: var(--link-active-color); }
+    color: var(--link-active-color);
+ }
 
 .header-nav .header-nav-link.current {
     color: var(--link-active-color);
@@ -80,7 +83,6 @@ a {
 
 .hero-title {
     color: var(--hero-title-color);
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: calc( 60 / 44);
@@ -90,6 +92,7 @@ a {
 }
 
 .button {
+    font-family: "Roboto" ,sans-serif;
     color: var(--hero-title-color);
     background-color: var(--link-active-color);
     font-weight: 700;
@@ -101,8 +104,6 @@ a {
 
 /*strenght section styles*/
 .strenght .strenght-name {
-    font-style: normal;
-    font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
@@ -116,15 +117,20 @@ a {
 /*h3 and text styles */
 .strength-name, .team-name, .work-title, .team-title {
   color: var(--primary-title-color);
+  
 }
+.strength-name{
+  font-size: 14px;
+  line-height: 16px; 
+  letter-spacing: 0.03em;
+}
+
 .strength-text, .team-text {
     color: var(--primary-text-color);
 }
 
 /* Work section */
 .work-title, .team-title {
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
@@ -134,7 +140,10 @@ a {
     width: 370px;
     height: 294px;
 }
-
+.work-title {
+    font-size: 36px;
+    line-height: 42px;
+}
 
 /*team section styles*/
 .team-member {
@@ -147,23 +156,19 @@ a {
     background-color: var(--team-background-color);
 }
 
-
-
 .team-images {
     width: 270px;
     height: 260px;
 }
 .team-name {
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .team-text {
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
@@ -190,7 +195,6 @@ a {
 }
 .footer-link-address {
     color: #FFFFFF;
-    font-style: normal;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -228,6 +232,11 @@ a {
     color: #212121;
     background-color:#F5F4FA ;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
 }
 .portfolio-button:hover,
 .portfolio-button:focus,
@@ -243,16 +252,12 @@ a {
 }
 .project-title {
     color: var(--primary-title-color);
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
 }
 .project-text {
     color: var(--primary-text-color);
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
