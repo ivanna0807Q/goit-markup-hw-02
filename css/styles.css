@@ -1,9 +1,4 @@
-   /* #212121 text gray onother color
-    #000000 text black color
-    #2196F3  text blue color
-    #757575  text grey color
-    #2F303A   background color
-    */
+
 :root {
     --primary-text-color :#757575;
     --primary-title-color :#212121;
