@@ -12,6 +12,25 @@
     --team-background-color:#F5F4FA;
     --footer-background-color: #2F303A;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0%;
+}
+.html {
+    box-sizing: border-box;
+}
+*,
+*::before
+*::after{
+    box-sizing:inherit;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     color: var(--accent-color);
@@ -266,4 +285,13 @@ a {
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
+}
+.projects {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.project-list {
+    flex-basis: calc(100-60px / 9);
+
 }
