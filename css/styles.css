@@ -75,46 +75,75 @@ a {
 }
 
 /*logo styles*/
-.header-nav{
-    margin-bottom: 0%;
-}
+
 .header-nav-list {
     display: flex;
+    margin-left: 93px;
 }
-.contacts-list {
-    display: flex;
-}
-
 .header-logo-link {
-    display: flex;
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    
 }
 .header-logo-blue {
     color: var(--logo-text-blue) }
 .header-logo-black {
     color: var(--logo-text-black );
  }
+/* main nav */
+.main-nav {
+    display: flex;
+    align-items: center;
+}
 
 /* header styles  */
 .header-page {
     display: flex;
 }
 .header-nav-link {
+    display: block;
     color: var(--primary-title-color);
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
 }
- .header-nav.header-nav-link:last-child {
+ .header-nav-link:last-child {
     margin-right: 0;
 }
-.header-nav.header-nav-link:not(:last-child) {
+.header-nav-link:not(:last-child) {
     margin-right: 50px;
 }
+ .header-nav-link:hover,
+ .header-nav-link:focus,
+ .header-nav-link:active {
+     color: var(--link-active-color);
+ }
+
+ .contacts-header-link {
+     display: block;
+     color: var(--primary-text-color);
+     font-weight: 500;
+     font-size: 14px;
+     line-height: calc(16 / 14);
+     padding-top: 32px;
+     padding-bottom: 32px;
+ }
+.contacts-list {
+    display: flex;
+}
+.contacts-item:last-child {
+    margin-right: 0;
+}
+.contacts-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+
+
 .contacts-items {
     font-style: normal;
     font-weight: 500;
@@ -122,23 +151,7 @@ a {
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
 }
- .header-nav-link:hover,
- .header-nav-link:focus,
- .header-nav-link:active {
-     color: var(--link-active-color);
-}
-.contacts-header-link {
-     color:var(--primary-text-color) ;
-     font-weight: 500;
-     font-size: 14px;
-     line-height: calc(16 / 14);
-}
- .contacts-list .contacts-header-link:last-child {
-    margin-right: 0;
-}
-.contacts-list .contacts-header-link:not(:last-child) {
-    margin-right: 40px;
-}
+
 .contacts-header-link:hover,
 .contacts-header-link:focus, 
 .contacts-header-link:active  { 
@@ -148,8 +161,6 @@ a {
 .header-nav .header-nav-link.current {
     color: var(--link-active-color);
 }
-
-
 /* Main, hero section- styles */
 /* SECTION***HERO*** */
 
