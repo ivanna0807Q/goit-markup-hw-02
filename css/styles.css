@@ -110,7 +110,7 @@ a {
     line-height: calc(16 / 14);
     margin-right: 50px;
 }
-.header-nav-link:last-child {
+ .header-nav.header-nav-link:last-child {
     margin-right: 0;
 }
 .contacts-items {
@@ -132,7 +132,7 @@ a {
      line-height: calc(16 / 14);
      margin-right: 40px;
 }
-.contacts-header-link:last-child {
+ .contacts-list.contacts-header-link:last-child {
     margin-right: 0;
 }
 
